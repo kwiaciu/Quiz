@@ -1,0 +1,51 @@
+main {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	text-align: center;
+}
+
+div {
+	padding: 10px;
+}
+
+.results, .quiz {
+	border: 1px solid gray;
+}
+
+.hidden {
+	display: none;
+}
+
+.question-label {
+	margin-bottom: 10px ;
+}
+
+.answer {
+	padding: 5px;
+}
+
+
+form>div {
+	text-align: left;	
+}
+
+label.answer{
+	display: block;
+	text-align: left;
+		padding: 10px;
+
+}
+
+span.answer {
+	padding: 10px;
+}
+
+.correct {
+	background-color: green;
+}
+
+.wrong {
+	background-color: red;
+}
