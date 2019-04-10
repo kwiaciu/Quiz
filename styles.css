@@ -1,9 +1,13 @@
+html {
+		background-color: #343434;
+}
 main {
-	width: 600px;
+	max-width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 40px;
 	text-align: center;
+	background-color: white;
 }
 
 div {
@@ -22,10 +26,6 @@ div {
 	margin-bottom: 10px ;
 }
 
-.answer {
-	padding: 5px;
-}
-
 
 form>div {
 	text-align: left;	
@@ -34,8 +34,15 @@ form>div {
 label.answer{
 	display: block;
 	text-align: left;
-		padding: 10px;
+	padding: 20px;
+}
 
+button {
+	height: 30px;
+}
+
+.progress {
+	margin-top: 10px;
 }
 
 span.answer {
@@ -43,9 +50,20 @@ span.answer {
 }
 
 .correct {
-	background-color: green;
+	background-color: rgba(0, 120, 0, 1);
 }
 
 .wrong {
-	background-color: red;
+	background-color: #D50000;
+}
+
+@media (hover:hover) {
+	button {
+		height: 25px;
+	}
+	
+	label.answer{
+		padding: 10px;
+	}
+	
 }

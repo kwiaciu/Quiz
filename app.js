@@ -186,5 +186,3 @@ $('#js-results').click(function(event){
 	$('.final-result').removeClass('hidden');
 
 });
-
-
